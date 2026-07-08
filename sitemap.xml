@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://tu-org.github.io/docs-central/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/decisiones/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/decisiones/adr-001-template/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/guias/como-crear-servicio/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/guias/estandares/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/guias/onboarding/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/servicios/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/servicios/servicio-a/</loc>
+         <lastmod>2026-07-08</lastmod>
+    </url>
+</urlset>
