@@ -2,34 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tu-org.github.io/docs-central/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/branch-protection/</loc>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/git-strategy/</loc>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/github-organization/</loc>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/release-process/</loc>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/versioning/</loc>
+         <lastmod>2026-07-09</lastmod>
     </url>
     <url>
          <loc>https://tu-org.github.io/docs-central/decisiones/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/decisiones/adr-001%20-%20Distancia%20Caja/</loc>
+         <lastmod>2026-07-09</lastmod>
     </url>
     <url>
          <loc>https://tu-org.github.io/docs-central/decisiones/adr-001-template/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/decisiones/adr-002%20-%20Lista%20de%20Espera/</loc>
+         <lastmod>2026-07-09</lastmod>
     </url>
     <url>
          <loc>https://tu-org.github.io/docs-central/guias/como-crear-servicio/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
     </url>
     <url>
          <loc>https://tu-org.github.io/docs-central/guias/estandares/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
     </url>
     <url>
          <loc>https://tu-org.github.io/docs-central/guias/onboarding/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
+    </url>
+    <url>
+         <loc>https://tu-org.github.io/docs-central/guias/rca-template/</loc>
+         <lastmod>2026-07-09</lastmod>
     </url>
     <url>
          <loc>https://tu-org.github.io/docs-central/servicios/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
     </url>
     <url>
          <loc>https://tu-org.github.io/docs-central/servicios/servicio-a/</loc>
-         <lastmod>2026-07-08</lastmod>
+         <lastmod>2026-07-09</lastmod>
     </url>
 </urlset>

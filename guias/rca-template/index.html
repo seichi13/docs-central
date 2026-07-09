@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://tu-org.github.io/docs-central/guias/estandares/">
+        <link rel="canonical" href="https://tu-org.github.io/docs-central/guias/rca-template/">
       
       
-        <link rel="prev" href="../como-crear-servicio/">
+        <link rel="prev" href="../estandares/">
       
       
-        <link rel="next" href="../rca-template/">
+        <link rel="next" href="../../decisiones/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Estándares del equipo - Docs — [Tu Empresa]</title>
+        <title>RCA — [Título del incidente] - Docs — [Tu Empresa]</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#estandares-del-equipo" class="md-skip">
+        <a href="#rca-titulo-del-incidente" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Estándares del equipo
+              RCA — [Título del incidente]
             
           </span>
         </div>
@@ -634,6 +634,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../estandares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estándares del equipo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -653,7 +681,7 @@
   <span class="md-ellipsis">
     
   
-    Estándares del equipo
+    RCA — [Título del incidente]
   
 
     
@@ -671,7 +699,7 @@
   <span class="md-ellipsis">
     
   
-    Estándares del equipo
+    RCA — [Título del incidente]
   
 
     
@@ -697,10 +725,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#codigo" class="md-nav__link">
+  <a href="#resumen-ejecutivo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Código
+        Resumen ejecutivo
       
     </span>
   </a>
@@ -708,10 +736,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git-y-prs" class="md-nav__link">
+  <a href="#impacto" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git y PRs
+        Impacto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Impacto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usuarios-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuarios / negocio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operaciones-infraestructura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operaciones / infraestructura
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cronologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cronología
       
     </span>
   </a>
@@ -719,10 +786,210 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#operacion" class="md-nav__link">
+  <a href="#descripcion-del-incidente" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Operación
+        Descripción del incidente
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Descripción del incidente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-paso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué pasó
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#que-se-esperaba-que-pasara" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué se esperaba que pasara
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#senales-sintomas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Señales / síntomas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#causa-raiz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa raíz
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Causa raíz">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#causa-inmediata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa inmediata
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causa-subyacente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa subyacente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causa-sistemica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa sistémica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analisis-de-5-whys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análisis de 5 Whys
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#factores-contribuyentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Factores contribuyentes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Factores contribuyentes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#personas-procesos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Personas / procesos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnologia-arquitectura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tecnología / arquitectura
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operaciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acciones-correctivas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones correctivas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Acciones correctivas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inmediatas-ya-ejecutadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inmediatas / ya ejecutadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventivas-pendientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preventivas / pendientes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecciones-aprendidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecciones aprendidas
       
     </span>
   </a>
@@ -730,10 +997,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentacion" class="md-nav__link">
+  <a href="#referencias" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Documentación
+        Referencias
       
     </span>
   </a>
@@ -744,34 +1011,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../rca-template/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    RCA — [Título del incidente]
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -928,10 +1167,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#codigo" class="md-nav__link">
+  <a href="#resumen-ejecutivo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Código
+        Resumen ejecutivo
       
     </span>
   </a>
@@ -939,10 +1178,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git-y-prs" class="md-nav__link">
+  <a href="#impacto" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git y PRs
+        Impacto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Impacto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usuarios-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuarios / negocio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operaciones-infraestructura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operaciones / infraestructura
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cronologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cronología
       
     </span>
   </a>
@@ -950,10 +1228,210 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#operacion" class="md-nav__link">
+  <a href="#descripcion-del-incidente" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Operación
+        Descripción del incidente
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Descripción del incidente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-paso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué pasó
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#que-se-esperaba-que-pasara" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué se esperaba que pasara
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#senales-sintomas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Señales / síntomas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#causa-raiz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa raíz
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Causa raíz">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#causa-inmediata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa inmediata
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causa-subyacente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa subyacente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causa-sistemica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causa sistémica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analisis-de-5-whys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análisis de 5 Whys
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#factores-contribuyentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Factores contribuyentes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Factores contribuyentes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#personas-procesos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Personas / procesos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnologia-arquitectura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tecnología / arquitectura
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operaciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acciones-correctivas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones correctivas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Acciones correctivas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inmediatas-ya-ejecutadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inmediatas / ya ejecutadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preventivas-pendientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preventivas / pendientes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecciones-aprendidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecciones aprendidas
       
     </span>
   </a>
@@ -961,10 +1439,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentacion" class="md-nav__link">
+  <a href="#referencias" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Documentación
+        Referencias
       
     </span>
   </a>
@@ -988,7 +1466,7 @@
 
 
   
-    <a href="https://github.com/tu-org/docs-central/edit/main/docs/guias/estandares.md" title="Editar esta página" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/tu-org/docs-central/edit/main/docs/guias/rca-template.md" title="Editar esta página" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -996,41 +1474,208 @@
   
 
 
-<h1 id="estandares-del-equipo">Estándares del equipo<a class="headerlink" href="#estandares-del-equipo" title="Permanent link">&para;</a></h1>
-<p>Acuerdos del equipo sobre cómo trabajamos. Si algo no está aquí, la decisión más reciente en un ADR tiene precedencia.</p>
+<h1 id="rca-titulo-del-incidente">RCA — [Título del incidente]<a class="headerlink" href="#rca-titulo-del-incidente" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Estado</strong></td>
+<td>🟡 En revisión / ✅ Cerrado / 🔴 Abierto</td>
+</tr>
+<tr>
+<td><strong>Fecha del incidente</strong></td>
+<td>YYYY-MM-DD HH:MM TZ</td>
+</tr>
+<tr>
+<td><strong>Fecha de publicación</strong></td>
+<td>YYYY-MM-DD</td>
+</tr>
+<tr>
+<td><strong>Servicio / sistema</strong></td>
+<td>Nombre del servicio, componente o flujo afectado</td>
+</tr>
+<tr>
+<td><strong>Severidad</strong></td>
+<td>Sev1 / Sev2 / Sev3 / Sev4</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>Descripción breve del impacto para usuarios, negocio o operaciones</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>@github-username</td>
+</tr>
+<tr>
+<td><strong>Revisores</strong></td>
+<td>@github-username, @github-username</td>
+</tr>
+<tr>
+<td><strong>ID / ticket</strong></td>
+<td>INC-1234 / LINK al ticket</td>
+</tr>
+</tbody>
+</table>
 <hr />
-<h2 id="codigo">Código<a class="headerlink" href="#codigo" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Lenguajes aprobados:</strong> TypeScript (Node.js), Python. Cualquier otro requiere ADR.</li>
-<li><strong>Node.js LTS:</strong> Siempre la versión LTS activa (hoy: v20).</li>
-<li><strong>Tests:</strong> Cobertura mínima del 70% en lógica de negocio. No en controllers o adaptadores.</li>
-<li><strong>Linting:</strong> ESLint / Ruff. El pipeline falla si hay errores.</li>
-</ul>
-<h2 id="git-y-prs">Git y PRs<a class="headerlink" href="#git-y-prs" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Rama principal:</strong> <code>main</code>. Siempre deployable.</li>
-<li><strong>Branches:</strong> <code>feat/</code>, <code>fix/</code>, <code>docs/</code>, <code>chore/</code> + descripción corta.</li>
-<li><strong>PRs:</strong> Mínimo 1 aprobación para merge a <code>main</code>. 2 para servicios críticos.</li>
-<li><strong>PRs grandes:</strong> Si un PR tiene +500 líneas cambiadas, dividirlo.</li>
-<li><strong>Merge:</strong> Squash merge. Un commit limpio por feature en <code>main</code>.</li>
-</ul>
-<h2 id="operacion">Operación<a class="headerlink" href="#operacion" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>On-call:</strong> Rotación semanal. El owner del servicio es el primero en escalar.</li>
-<li><strong>Incidentes:</strong> Todo incidente de producción tiene un postmortem breve (5 líneas mínimo) en el canal <code>#incidentes</code>.</li>
-<li><strong>Cambios en producción:</strong> Solo via CI/CD. Sin cambios manuales directos.</li>
-<li><strong>Secretos:</strong> Nunca en código ni en variables de entorno en texto plano. Usar Secrets Manager.</li>
-</ul>
-<h2 id="documentacion">Documentación<a class="headerlink" href="#documentacion" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Cada servicio tiene:</strong> <code>index.md</code>, <code>architecture.md</code>, <code>runbook.md</code>, <code>api.md</code>.</li>
-<li><strong>Docs desactualizadas:</strong> Son bugs. Cualquiera puede (y debe) corregirlas via PR.</li>
-<li><strong>Decisiones de arquitectura:</strong> Se registran como ADR en <a href="../../decisiones/"><code>/decisiones</code></a>.</li>
-</ul>
-<hr />
+<h2 id="resumen-ejecutivo">Resumen ejecutivo<a class="headerlink" href="#resumen-ejecutivo" title="Permanent link">&para;</a></h2>
 <blockquote>
-<p>Estos estándares se revisan cada 6 meses. Para proponer un cambio, abre un PR con la modificación y discútelo en el canal <code>#ingenieria</code>.</p>
+<p>Describe en 3-5 líneas qué ocurrió, cuánto tiempo duró, qué impacto tuvo y por qué se documenta este RCA.</p>
 </blockquote>
+<p><em>Ejemplo: El servicio de pagos experimentó un fallo de disponibilidad durante 42 minutos, afectando 18% de los pedidos. El incidente fue detectado por alertas de latencia y se resolvió al restaurar la conexión con el proveedor externo.</em></p>
+<hr />
+<h2 id="impacto">Impacto<a class="headerlink" href="#impacto" title="Permanent link">&para;</a></h2>
+<h3 id="usuarios-negocio">Usuarios / negocio<a class="headerlink" href="#usuarios-negocio" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Usuarios afectados:</li>
+<li>Funcionalidades afectadas:</li>
+<li>Pérdida de negocio o SLA:</li>
+<li>Riesgo de seguridad o cumplimiento:</li>
+</ul>
+<h3 id="operaciones-infraestructura">Operaciones / infraestructura<a class="headerlink" href="#operaciones-infraestructura" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Servicios impactados:</li>
+<li>Componentes involucrados:</li>
+<li>Duración total:</li>
+<li>Tiempo de detección:</li>
+<li>Tiempo de resolución:</li>
+</ul>
+<hr />
+<h2 id="cronologia">Cronología<a class="headerlink" href="#cronologia" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Hora</th>
+<th>Evento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HH:MM</td>
+<td>Detectado por alertas / reporte de usuario</td>
+</tr>
+<tr>
+<td>HH:MM</td>
+<td>Equipo asignado y se inicia la respuesta</td>
+</tr>
+<tr>
+<td>HH:MM</td>
+<td>Se identifica la causa y se implementa mitigación</td>
+</tr>
+<tr>
+<td>HH:MM</td>
+<td>Servicio recuperado y se valida estabilidad</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="descripcion-del-incidente">Descripción del incidente<a class="headerlink" href="#descripcion-del-incidente" title="Permanent link">&para;</a></h2>
+<h3 id="que-paso">Qué pasó<a class="headerlink" href="#que-paso" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Describe el comportamiento anómalo o la falla observada.</li>
+</ul>
+<h3 id="que-se-esperaba-que-pasara">Qué se esperaba que pasara<a class="headerlink" href="#que-se-esperaba-que-pasara" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Describe el comportamiento normal esperado.</li>
+</ul>
+<h3 id="senales-sintomas">Señales / síntomas<a class="headerlink" href="#senales-sintomas" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Alertas:</li>
+<li>Logs o métricas relevantes:</li>
+<li>Reportes de usuarios:</li>
+</ul>
+<hr />
+<h2 id="causa-raiz">Causa raíz<a class="headerlink" href="#causa-raiz" title="Permanent link">&para;</a></h2>
+<h3 id="causa-inmediata">Causa inmediata<a class="headerlink" href="#causa-inmediata" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Qué falló directamente.</li>
+</ul>
+<h3 id="causa-subyacente">Causa subyacente<a class="headerlink" href="#causa-subyacente" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Qué condiciones o decisiones permitieron que el fallo ocurriera.</li>
+</ul>
+<h3 id="causa-sistemica">Causa sistémica<a class="headerlink" href="#causa-sistemica" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Problemas de proceso, documentación, herramientas, ownership o capacidad.</li>
+</ul>
+<h3 id="analisis-de-5-whys">Análisis de 5 Whys<a class="headerlink" href="#analisis-de-5-whys" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Why 1: ...</li>
+<li>Why 2: ...</li>
+<li>Why 3: ...</li>
+<li>Why 4: ...</li>
+<li>Why 5: ...</li>
+</ol>
+<hr />
+<h2 id="factores-contribuyentes">Factores contribuyentes<a class="headerlink" href="#factores-contribuyentes" title="Permanent link">&para;</a></h2>
+<h3 id="personas-procesos">Personas / procesos<a class="headerlink" href="#personas-procesos" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Falta de runbook actualizado:</li>
+<li>Falta de monitoreo o alertas insuficientes:</li>
+<li>Comunicación limitada durante el incidente:</li>
+</ul>
+<h3 id="tecnologia-arquitectura">Tecnología / arquitectura<a class="headerlink" href="#tecnologia-arquitectura" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Dependencia crítica no cubierta:</li>
+<li>Configuración inadecuada:</li>
+<li>Limitación de capacidad o escalabilidad:</li>
+</ul>
+<h3 id="operaciones">Operaciones<a class="headerlink" href="#operaciones" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Falta de automatización:</li>
+<li>Tiempo de recuperación largo:</li>
+<li>Ausencia de validación post-reparación:</li>
+</ul>
+<hr />
+<h2 id="acciones-correctivas">Acciones correctivas<a class="headerlink" href="#acciones-correctivas" title="Permanent link">&para;</a></h2>
+<h3 id="inmediatas-ya-ejecutadas">Inmediatas / ya ejecutadas<a class="headerlink" href="#inmediatas-ya-ejecutadas" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] ...</li>
+<li>[ ] ...</li>
+</ul>
+<h3 id="preventivas-pendientes">Preventivas / pendientes<a class="headerlink" href="#preventivas-pendientes" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] ...</li>
+<li>[ ] ...</li>
+<li>[ ] ...</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Acción</th>
+<th>Responsable</th>
+<th>Fecha objetivo</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ejemplo: agregar alerta de latencia</td>
+<td>@user</td>
+<td>YYYY-MM-DD</td>
+<td>Pendiente</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="lecciones-aprendidas">Lecciones aprendidas<a class="headerlink" href="#lecciones-aprendidas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Qué salió bien:</li>
+<li>Qué se puede mejorar:</li>
+<li>Qué cambios de proceso o cultura recomendar:</li>
+</ul>
+<hr />
+<h2 id="referencias">Referencias<a class="headerlink" href="#referencias" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Ticket / incident ID:</li>
+<li>PRs o cambios relacionados:</li>
+<li>Dashboards o métricas relevantes:</li>
+<li>Documentación operativa o runbooks:</li>
+</ul>
 
 
 
