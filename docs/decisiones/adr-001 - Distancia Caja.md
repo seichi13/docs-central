@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |---|---|
-| **Estado** | 🟡 Propuesto  |
+| **Estado** | ✅ Aceptado  |
 | **Fecha** | 2026-07-01 |
 | **Autores** | @seichi13 |
 | **Revisores** | @cvargasn, @ralf-winet |

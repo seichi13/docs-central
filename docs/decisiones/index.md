@@ -10,8 +10,8 @@ No documentar las decisiones es la principal causa de que el equipo repita los m
 
 | # | Título | Estado | Fecha |
 |---|---|---|---|
-| [ADR-001](adr-001-template.md) | Template de ejemplo | 📄 Template | — |
-| *(tu primera decisión real va aquí)* | | | |
+| [ADR-001](adr-001%20-%20Distancia%20Caja.md) | Distancia para búsqueda de cajas | ✅ Aceptado | 01/07/2026 |
+| [ADR-002](adr-002%20-%20Lista%20de%20Espera.md) | Lista de Espera | ✅ Aceptado | 08/07/2026 |
 
 ### Estados posibles
 
