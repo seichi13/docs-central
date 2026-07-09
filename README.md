@@ -2,7 +2,7 @@
 
 Portal de documentación técnica interna. Construido con [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
-🌐 **Ver documentación:** https://tu-org.github.io/docs-central
+🌐 **Ver documentación:** https://seichi13.github.io/docs-central
 
 ---
 
@@ -42,3 +42,47 @@ docs/
 Automático vía GitHub Actions al hacer push a `main`. Ver `.github/workflows/deploy-docs.yml`.
 
 Requiere que GitHub Pages esté habilitado en el repositorio apuntando a la rama `gh-pages`.
+
+--- 
+
+## Objectives
+
+- Standardize software delivery.
+- Improve software quality.
+- Reduce duplicated CI/CD logic.
+- Centralize engineering documentation.
+- Automate releases.
+- Improve security.
+- Enable Platform Engineering.
+
+## Repository Structure
+
+```
+.github/
+docs/
+templates/
+scripts/
+```
+
+## Standards
+
+- Git Strategy
+- Semantic Versioning
+- Conventional Commits
+- Pull Request Standards
+- Branch Protection
+- Release Process
+- API Standards
+- Security Standards
+
+## CI/CD
+
+Reusable GitHub Workflows are located under:
+
+```
+.github/workflows/
+```
+
+## Maintainers
+
+Software Architecture Team

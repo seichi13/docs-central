@@ -44,6 +44,14 @@ Aquí encontrarás todo lo que necesitas para entender, operar y contribuir a nu
 
     [:octicons-arrow-right-24: Template ADR](decisiones/adr-001-template.md)
 
+- :material-alert-octagon: **Quiero documentar un incidente**
+
+    ---
+
+    Usa esta plantilla RCA para registrar causa raíz, impacto y acciones correctivas.
+
+    [:octicons-arrow-right-24: Template RCA](guias/rca-template.md)
+
 - :material-cog: **Tengo un incidente activo**
 
     ---

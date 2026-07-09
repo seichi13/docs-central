@@ -65,6 +65,7 @@ nav:
       - guias/onboarding.md
       - guias/como-crear-servicio.md
       - guias/estandares.md
+      - guias/rca-template.md
   - Decisiones (ADR):
       - decisiones/index.md
       - decisiones/adr-001-template.md
